@@ -1,0 +1,12 @@
+
+.container {
+    border: 2px solid black;
+    position: relative;
+    display: grid;
+    height: 49vw;
+    width: 49vw;
+}
+
+.gridSquare {
+    border: 1px solid rgb(231, 231, 231);
+}
