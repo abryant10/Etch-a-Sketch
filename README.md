@@ -38,3 +38,22 @@ DONE Create a webpage with a 16x16 grid of square divs
 5. (Optional): Instead of just changing the color of your grid from black to white (for example) have each pass through it with the mouse change to a completely random RGB value. Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
 6. Push your project to GitHub!
 
+
+
+//const clearButton = document.querySelector('.clearButton');
+
+/*
+function clearGrid () {
+    gridItems.forEach(gridItem => gridItem.style.backgroundColor = 'white')
+}// fix this 
+
+clearButton.addEventListener('click', clearGrid);
+*/
+
+
+/*
+clear button 
+prompt
+size slider
+gridItem => gridItem.style.backgroundColor = 'white'  
+*/

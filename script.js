@@ -1,5 +1,5 @@
 const container = document.getElementById('container');
-let gridNumber = 100;
+let gridNumber = 20;
 let i = 0;
 
 function makeTheBox (gridNumber) {
@@ -15,11 +15,17 @@ function makeTheBox (gridNumber) {
 
 makeTheBox(gridNumber);
 
-/*
+var gridItems = document.querySelectorAll('.gridSquare');
+gridItems.forEach(gridItem => gridItem.addEventListener('mouseover', function (e) {
+      e.target.style.backgroundColor = 'black';
+  }));
 
-loop while i is less than or equal to number col squared creat div with class for css
-append div to conatiner 
-make loop limit
+/*
+hover
+clear button 
+prompt
+size slider
+
 
 
 */
